@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan a Trip — ATLAS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="nav"><a class="logo" href="index.html">ATLAS<span>.</span></a><button class="menu"
+            aria-label="Toggle navigation">☰</button>
+        <nav class="links"><a href="index.html">Home</a><a href="destinations.html">Destinations</a><a
+                href="experiences.html">Experiences</a><a href="about.html">Our story</a><a class="nav-cta active-cta"
+                href="contact.html">Plan a trip ↗</a></nav>
+    </header>
+    <main class="page contact-page">
+        <div>
+            <p class="eyebrow">LET'S GET OUT THERE</p>
+            <h1>Tell us your<br><em>daydream.</em></h1>
+            <p class="lead">A place you've saved. A feeling you're chasing. A trip you've been putting off. Start
+                anywhere.</p>
+            <p class="contact-note">hello@atlas-travel.example<br>Instagram · @atlas.wanders</p>
+        </div>
+        <form id="trip-form"><label for="name">Your name</label><input id="name" name="name"
+                placeholder="First and last name" required>
+            <label for="email">Email address</label><input id="email" name="email" type="email"
+                placeholder="you@example.com" required>
+            <label for="destination">Where are you dreaming of?</label><input id="destination" name="destination"
+                placeholder="Anywhere is an answer">
+            <label for="style">Your travel mood</label><select id="style" name="style">
+                <option value="">Choose a mood</option>
+                <option>Adventure & outdoors</option>
+                <option>Culture & food</option>
+                <option>Slow & restorative</option>
+                <option>A little bit of everything</option>
+            </select>
+            <label for="message">Tell us more</label><textarea id="message" name="message" rows="5"
+                placeholder="Dates, budget, people coming along…"></textarea><button class="button dark"
+                type="submit">Send your daydream ↗</button>
+            <p id="form-message" role="status"></p>
+        </form>
+    </main>
+    <footer><a class="logo" href="index.html">ATLAS<span>.</span></a>
+        <p>Go somewhere. Feel everything.</p><small>© 2026 ATLAS TRAVEL CO. · CONCEPT WEBSITE</small>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
